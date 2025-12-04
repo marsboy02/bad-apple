@@ -1,0 +1,36 @@
+# Binaries
+bad-apple
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+
+# macOS
+.DS_Store
+
+# Video frames (generated, not needed in repo)
+frames/
+
+# Original video file
+bad_apple.mp4
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
